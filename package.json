@@ -1,24 +1,27 @@
 {
-    "name": "code-server",
-    "version": "1.0.0",
-    "description": "Code Server in Node.js to Output Console of any JS files present in current directory.",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Dharmang92/code-server.git"
-    },
-    "keywords": [
-        "Javscript",
-        "Live Output",
-        "Coding"
-    ],
-    "author": "Dharmang Gajjar",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/Dharmang92/code-server/issues"
-    },
-    "homepage": "https://github.com/Dharmang92/code-server#readme"
+  "name": "code-server",
+  "version": "1.0.0",
+  "description": "Code Server in Node.js to Output Console of any JS files present in current directory.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharmang92/code-server.git"
+  },
+  "keywords": [
+    "Javscript",
+    "Live Output",
+    "Coding"
+  ],
+  "author": "Dharmang Gajjar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Dharmang92/code-server/issues"
+  },
+  "homepage": "https://github.com/Dharmang92/code-server#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
 }
